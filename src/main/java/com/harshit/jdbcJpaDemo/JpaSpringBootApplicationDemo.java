@@ -31,8 +31,6 @@ public class JpaSpringBootApplicationDemo implements CommandLineRunner {
 		// this.logger.info("All Persons -> {}", this.personDao.getAllPersons());
 		// this.logger.info("User for 10002 -> {}", this.personDao.getPersonById(10002));
 		// this.logger.info("User for 10003 -> {}", this.personDao.deletePersonById(10003));
-		// this.logger.info("Person inserted for 10008 -> {}", this.personDao.insertPerson(new Person(10008, "Kritika Pareek", "Jaipur", new Date())));
-		// this.logger.info("Person inserted for 10001 -> {}", this.personDao.updatePerson(new Person(10001, "Sanjeev", "Cerritos", new Date())));
 	}
 
 }
