@@ -13,15 +13,15 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class JdbcJpaDemoApplication implements CommandLineRunner {
-	private Logger logger = LoggerFactory.getLogger(JdbcJpaDemoApplication.class);
+// @SpringBootApplication
+public class JdbcSpringBootApplicationDemo implements CommandLineRunner {
+	private Logger logger = LoggerFactory.getLogger(JdbcSpringBootApplicationDemo.class);
 
 	@Autowired
 	PersonJdbcDAO personDao;
 
 	public static void main(String[] args) {
-		SpringApplication.run(JdbcJpaDemoApplication.class, args);
+		SpringApplication.run(JdbcSpringBootApplicationDemo.class, args);
 	}
 
 	@Override
